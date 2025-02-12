@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Глеб Веревкин](https://up.htmlacademy.ru/htmlcss-individual/2/user/2617881).
-* Наставник: `Неизвестно`.bbbbbb
+* Студент: [Глеб Веревкин](https://up.htmlacademy.ru/htmlcss-individual/2/user/2617881)
+* Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula)
 * Сайт:[Мой проект Седона](https://ropegleb.github.io/2617881-sedona-2/)
 
 ---
