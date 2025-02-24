@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,14 +8,221 @@
 
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
 }
 
 body {
-  font-family: "PT Sans";
-  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  background-color: #F2F2F2;
+  color: #333333;
+}
+
+.page-header,
+.main-index,
+.page-footer,
+.main-catalog {
+  background-color: #FFFFFF;
+}
+
+.navigation-link,
+.social-link,
+.phone,
+.htmlacademy-link,
+.view-link {
+  font-size: 20px;
+  font-weight: 700;
   line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+  cursor:pointer;
+  text-align: center;
+}
+
+.favorite-count {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+
+}
+
+.button {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  cursor:pointer;
+  text-decoration: none;
+  border-radius: 4px;
+  border-width: 0;
+
+}
+
+.button-normal {
+  background-color: #756157;
+}
+
+.button-secondary {
+  background-color: #82B3D3;
+}
+
+.button-primary {
+  background-color: #7DB54F;
+}
+
+.button-clean {
+  background-color: inherit;
+}
+
+.hero {
+  background: #cb9d99 url(/images/background/index-background.jpg) no-repeat;
+}
+
+.reasons-title,
+.benefits-title,
+.booking-title,
+.subscription-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons-desc,
+.benefits-subtitle,
+.booking-desc,
+.subscription-subtitle {
+  text-align: center;
+}
+
+.reasons-item-title,
+.benefits-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.reasons-item-desc,
+.benefits-item-desc {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.reasons-item:first-child,
+.reasons-item:last-child {
+  background-color: #82B3D3;
+}
+
+.reasons-item:nth-child(2n):not(:first-child):not(:last-child) {
+  background-color: #83B3D31F;
+  ;
+}
+
+.reasons-item:nth-child(2n+1):not(:first-child):not(:last-child) {
+  background-color: #83B3D333;
+  ;
+}
+
+.benefits-item:nth-child(2n+1) {
+  background-color: #83B3D31F;
+  ;
+}
+
+.subscription-index  {
+  color: #FFFFFF;
+  background: #cb9d99 url(/images/background/index-background.jpg) no-repeat;
+}
+
+.filter {
+  background: #cb9d99 url(/images/background/filter-background.png) no-repeat;
+}
+
+.filter {
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor:pointer;
+  text-align: left;
+}
+
+.catalog-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+
+}
+
+.filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.control {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.view-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.product-link {
+  text-decoration: none;
+  cursor:pointer;
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.products-type,
+.products-price {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.product-rating {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+}
+
+.pagination-link {
+  text-decoration: none;
+  cursor:pointer;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #82B3D3;
 }
