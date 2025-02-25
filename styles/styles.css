@@ -135,7 +135,6 @@ body {
 
 }
 
-
 .reasons-item:nth-child(2n):not(:first-child):not(:last-child) {
   background-color: #83B3D31F;
   ;
@@ -157,8 +156,12 @@ body {
 }
 
 .subscription-index  {
-  color: #FFFFFF;
   background: #cb9d99 url("../images/background/index-background.jpg") no-repeat;
+}
+
+.subscription-index .subscription-title,
+.subscription-index .subscription-subtitle {
+  color: #FFFFFF;
 }
 
 .filter {
